@@ -39,10 +39,6 @@ section {
   color: white;
 }
 
-textarea:focus {
-  animation: none !important;
-}
-
 footer {
   color: #b9a4de;
 }
@@ -51,6 +47,7 @@ footer a {
   color: white;
 }
 
+/* RWD FONT SIZE */
 body {
   font-size: 22px;
 }

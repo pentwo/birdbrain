@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Krisp`,
-    description: `A Clean, Minimal and Responsive Site`,
-    author: `@mohanmonu777`,
+    title: `Birdbrain`,
+    description: `Birdbrain hiring project.`,
+    author: `Steven Peng`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`,
+        icon: `src/images/egg.svg`,
       },
     },
     `gatsby-transformer-yaml`,
