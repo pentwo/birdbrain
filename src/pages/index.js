@@ -1,7 +1,7 @@
 import React from "react"
 import "../global.css"
 import LandingPage from "../subpages/LandingPage"
-import Intro from "../subpages/intro"
+import Intro from "../subpages/Intro"
 
 import Benefits from "../subpages/Benefits"
 import Tech from "../subpages/Tech"
