@@ -1,0 +1,12 @@
+- title: React.js
+  src: https://res.cloudinary.com/pentwo/image/upload/v1599304936/icons/react_qsmuit.svg
+  describe: React is an open-source JavaScript library for building user interfaces or UI component.
+- title: WordPress
+  src: https://res.cloudinary.com/pentwo/image/upload/v1599304935/icons/wordpress_uyjs0f.svg
+  describe: WordPress is a content management system based on PHP and MySQL.
+- title: Woocommerce
+  src: https://res.cloudinary.com/pentwo/image/upload/v1570189975/icons/WooCommerce_znxpns.svg
+  describe: WooCommerce is an open-source e-commerce plugin for WordPress.
+- title: Shopify
+  src: https://res.cloudinary.com/pentwo/image/upload/v1599304936/icons/shopify_k502ci.svg
+  describe: Shopify offers online retailers a suite of services including payments, marketing, shipping and customer engagement tools.

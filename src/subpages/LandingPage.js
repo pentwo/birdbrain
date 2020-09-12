@@ -1,6 +1,8 @@
 import React from "react"
 import Navbar from "../components/Navbar"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
+
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 function LandingPage() {
   const { pageDataYaml } = useStaticQuery(graphql`
@@ -16,7 +18,7 @@ function LandingPage() {
 
   const pageStyle = {
     backgroundImage:
-      "url(https://images.pexels.com/photos/113338/pexels-photo-113338.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)",
+      "url(https://images.pexels.com/photos/1230302/pexels-photo-1230302.jpeg?crop=entropy&cs=srgb&dl=pexels-kun-fotografi-1230302.jpg&fit=crop&fm=jpg&h=650&w=940)",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
@@ -25,33 +27,32 @@ function LandingPage() {
     backgroundBlendMode: "multiply",
   }
 
-  const welcomeStyle = {
-    letterSpacing: "0.25em",
-  }
-
   return (
-    <section id = "home" style={pageStyle} className = "container-fluid">
+    <section id="home" style={pageStyle} className="container-fluid">
       <div className="container">
         <Navbar />
         <div className="centerItems">
-          <h6 style={welcomeStyle}>{welcomeText}</h6>
-          <h1>{landingText}</h1>
-          <button
+          <h6>{landingText}</h6>
+          <h1>{welcomeText}</h1>
+          <AnchorLink
+            href="#intro"
             style={{
               width: "200px",
               padding: "10px",
               border: "none",
               boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
               background: "#FFA800",
-              borderRadius: "30px",
+              borderRadius: "5px",
+              textAlign: "center",
               textTransform: "uppercase",
-              color : "white",
-              fontWeight : "600",
-              marginTop : "20px"
+              textDecoration: "none",
+              fontWeight: "600",
+              color: "white",
+              marginTop: "20px",
             }}
           >
-            Start a Project
-          </button>
+            Learn more
+          </AnchorLink>
         </div>
       </div>
     </section>

@@ -1,11 +1,9 @@
 import React from "react"
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 function Navbar() {
-  const textStyle = {
-    color: "#FFA800",
-    fontWeight: "600",
-    letterSpacing: "0.1em",
+  const logoStyle = {
+    width: "120px",
   }
   return (
     <div className="pos-f-t">
@@ -18,20 +16,36 @@ function Navbar() {
               </AnchorLink>
             </li>
             <li class="nav-item">
-              <AnchorLink class="nav-link" href="#services">
-                Services
+              <AnchorLink class="nav-link" href="#intro">
+                Intro
               </AnchorLink>
             </li>
             <li class="nav-item">
-              <AnchorLink class="nav-link" href="#team">
-                Team
+              <AnchorLink class="nav-link" href="#benefits">
+                Benefits
+              </AnchorLink>
+            </li>
+            <li class="nav-item">
+              <AnchorLink class="nav-link" href="#tech">
+                Tech
+              </AnchorLink>
+            </li>
+            <li class="nav-item">
+              <AnchorLink class="nav-link" href="#contact">
+                Contact
               </AnchorLink>
             </li>
           </ul>
         </div>
       </div>
       <nav className="navbar navbar-dark">
-        <h4 style={textStyle}>KRISP</h4>
+        <h4>
+          <img
+            src="https://res.cloudinary.com/pentwo/image/upload/v1570340725/stock-images/bb_logo_lgdkrd.svg"
+            alt="bb_logo"
+            style={logoStyle}
+          />
+        </h4>
         <button
           className="navbar-toggler"
           type="button"

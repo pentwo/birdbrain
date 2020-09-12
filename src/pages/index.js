@@ -1,19 +1,23 @@
 import React from "react"
 import "../global.css"
-import LandingPage from "../subpages/LandingPage";
-import Services from "../subpages/Services";
-import Team from "../subpages/Team";
-import End from "../subpages/End";
-import Footer from "../components/Footer";
+import LandingPage from "../subpages/LandingPage"
+import Intro from "../subpages/intro"
+
+import Benefits from "../subpages/Benefits"
+import Tech from "../subpages/Tech"
+
+import End from "../subpages/End"
+import Footer from "../components/Footer"
 
 function Index() {
   return (
     <div>
-      <LandingPage/>
-      <Services/>
-      <Team/>
-      <End/>
-      <Footer/>
+      <LandingPage />
+      <Intro />
+      <Benefits />
+      <Tech />
+      <End />
+      <Footer />
     </div>
   )
 }
